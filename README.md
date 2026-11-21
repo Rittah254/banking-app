@@ -1,20 +1,61 @@
+# Banking App
 
-# React + Vite
+A web-based Banking Application built using React and Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
+- React.js
+- JavaScript
+- Vite
+- HTML
+- CSS
 
-Currently, two official plugins are available:
+## Features
+- Home page
+- Create bank accounts
+- View existing accounts
+- Account details
+- Contact page
+- Reusable React components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Installation
 
-## React Compiler
+Clone the repository:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+git clone https://github.com/Rittah254/banking-app.git
+```
 
-## Expanding the ESLint configuration
+Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# banking-app
+```bash
+npm install
+```
 
+Start the application:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+banking-app/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+└── vite.config.js
+```
+
+## Author
+Rittah Willy
+
+## License
+For educational and portfolio purposes.
